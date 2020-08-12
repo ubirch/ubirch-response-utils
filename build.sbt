@@ -31,7 +31,7 @@ scmInfo := Some(ScmInfo(
 }
 
 /*
- * RESOLVER"ubirch.utils.cloudrepo" at "https://ubirch.mycloudrepo.io/repositories/ubirch-utils-mvn"
+ * RESOLVER
  ********************************************************/
 
 val resolverUbirchUtils = "ubirch.mycloudrepo.io" at "https://ubirch.mycloudrepo.io/repositories/ubirch-utils-mvn"
