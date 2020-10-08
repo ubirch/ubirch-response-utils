@@ -22,7 +22,7 @@
 
     <groupId>com.ubirch.util</groupId>
     <artifactId>ubirch-response-utils_${scala.major.version}</artifactId>
-    <version>0.5.1</version>
+    <version>0.5.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <licenses>
@@ -76,7 +76,7 @@
         <scala.compat.version>2.11</scala.compat.version>
         <scalatest.version>3.0.5</scalatest.version>
 
-        <ubirch-json.version>0.5.2</ubirch-json.version>
+        <ubirch-json.version>0.5.3-SNAPSHOT</ubirch-json.version>
         <akka-http.version>10.1.3</akka-http.version>
         <akka.version>2.5.11</akka.version>
 
@@ -149,7 +149,7 @@
         </repository>
         <repository>
             <id>io.cloudrepo</id>
-            <url>https://ubirch.mycloudrepo.io/public/repositories/ubirch-utils-mvn</url>
+            <url>https://ubirch.mycloudrepo.io/public/repositories/mvn-public</url>
         </repository>
     </repositories>
 
@@ -158,7 +158,7 @@
         <repository>
             <id>io.cloudrepo</id>
             <name>Ubirch Public Cloud Repo Repository</name>
-            <url>https://ubirch.mycloudrepo.io/repositories/ubirch-utils-mvn</url>
+            <url>https://ubirch.mycloudrepo.io/repositories/mvn-public</url>
         </repository>
     </distributionManagement>
 
