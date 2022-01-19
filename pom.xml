@@ -22,7 +22,7 @@
 
     <groupId>com.ubirch.util</groupId>
     <artifactId>ubirch-response-utils_${scala.major.version}</artifactId>
-    <version>0.5.2-SNAPSHOT</version>
+    <version>0.5.2</version>
     <packaging>jar</packaging>
 
     <licenses>
@@ -76,7 +76,7 @@
         <scala.compat.version>2.13</scala.compat.version>
         <scalatest.version>3.2.10</scalatest.version>
 
-        <ubirch-json.version>0.5.3-SNAPSHOT</ubirch-json.version>
+        <ubirch-json.version>0.5.3</ubirch-json.version>
         <akka-http.version>10.2.7</akka-http.version>
         <akka.version>2.6.18</akka.version>
 
@@ -270,6 +270,19 @@
                 <configuration>
                     <skip>false</skip>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
